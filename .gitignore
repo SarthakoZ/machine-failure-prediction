@@ -1,0 +1,53 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Virtual environments ---
+venv/
+env/
+ENV/
+.venv/
+.conda/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Environment variables / secrets ---
+.env
+.env.*
+*.key
+
+# --- Data & model artifacts (uncomment if you don't want to track these) ---
+# data/*.xlsx
+# data/*.csv
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Test / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
